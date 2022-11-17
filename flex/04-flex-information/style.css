@@ -24,3 +24,25 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My solution */
+
+/* add text-align center to body so you 
+dont have to apply it multiple times */
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.plant-item {
+  width: 200px
+}
